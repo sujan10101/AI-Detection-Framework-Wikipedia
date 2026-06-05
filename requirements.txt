@@ -1,0 +1,18 @@
+# Core data science
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.7.2
+tqdm==4.67.1
+matplotlib==3.10.6
+
+# NLP / deep learning
+torch==2.8.0
+transformers==4.57.1
+nltk==3.9.2
+
+# Interpretability
+shap>=0.44.0
+
+# Optional: Universal Sentence Encoder (Classifier 3 in evaluate_llm_model.py)
+# tensorflow>=2.13.0
+# tensorflow-hub>=0.14.0

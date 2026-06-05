@@ -1,0 +1,23 @@
+# Dataset (too large for GitHub — share via external link or data repository)
+*.csv
+!requirements.txt
+
+# Model checkpoints and outputs
+finetuned_distilbert_stratified/
+logs/
+shap_results*/
+__pycache__/
+*.py[cod]
+*.log
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment
+.env
+venv/
+.venv/
