@@ -62,7 +62,7 @@ Do NOT explain. Do NOT add punctuation. Just one word.
 
 
 ================================================================================
-FEW-SHOT EXAMPLES
+EXAMPLES
 ================================================================================
 
 --- Example 1 (label: Human) ---
