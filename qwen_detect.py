@@ -104,7 +104,7 @@ Your task: Read the Wikipedia article excerpt and decide if it was written by a 
 Respond with ONLY one word: AI or Human
 Do NOT explain. Do NOT add punctuation. Just one word."""
 
-FEW_SHOT_MESSAGES = [
+EXAMPLES_MESSAGES = [
     {
         "role": "user",
         "content": (
@@ -187,7 +187,7 @@ def ask_qwen(model, tokenizer, text: str, max_chars: int = 2000) -> tuple[int, s
         ),
     }
     messages = [{"role": "system", "content": SYSTEM_PROMPT}]
-    messages.extend(FEW_SHOT_MESSAGES)
+    messages.extend(EXAMPLES_MESSAGES)
     messages.append(user_msg)
 
     text_input = tokenizer.apply_chat_template(
